@@ -1,0 +1,173 @@
+NOTES
+
+-Requests and Responses
+-Url - request client, Page - respond from server
+-Url -> DNS -> IP address
+
+-Front end (what's plated and sent to the table) - what you see and interact with; HTML JS CSS (client-side)
+-Back end (what happens int he kitchen) - everything else (server-side) Language, DB ...
+-HTML: Structure and content (skeleton)(nouns)
+-CSS: Style (skin)(adjective)
+-JavaScript: Logic (brain)(verbs)
+
+-Separate styling (bold/italicized) from scructure (strong/ephasized)
+
+-file protocol vs. http protocol
+
+-thead
+-tbody
+-th
+-tr
+-td
+
+-GET - getting data back
+-POST - adds to a database
+
+-csszengarden.com
+-style tags for debugging?
+
+DECIMAL - Base 10
+0,1,2,3,4,5,6,7,8,9
+
+BINARY - Base 2
+0,1
+
+HEXADECIMAL - Base 16
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+# red green blue
+
+-rgb 0-255
+-rgba a = alpha = transparency (0-1)
+
+-'id' to appear only once on a page (#)
+-'class' can be applied to any number of elements (.)
+
+Element
+li {
+	
+}
+
+class
+.hello {
+	
+}
+
+id
+#name {
+	
+}
+
+Star
+* {
+	border: 1px solid lightgrey; (everything on the pagr)
+}
+
+Descendant Selector
+li a {
+	color: red;
+}
+
+Adjacent Selector
+h4 + ul{
+	4px solid red (all uls that comes AFTER the h4)
+}
+
+Attribute Selector
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+nth of type
+ul:nth-of-type(3){
+	backgroung: purple;
+}
+
+
+
+(The 30 CSS Selectors You Must Memorize)
+
+
+
+Specifity wins (MDN Specificity) (specificity.keegan.st)
+
+Least Specific:
+-Type Selectors
+li {
+	(1)
+}
+
+li a {
+	(2)
+}
+
+li + a {
+	(3)
+}
+
+Specific:
+-Class, Attribute, and Pseudo-Class Selectors
+.hello {
+	
+}
+
+input[type="text"] {
+	
+}
+
+a:hover {
+	
+}
+
+Most Specific (apart from inlines):
+-ID Selectors
+#hello {
+	
+}
+
+
+-font-family: style
+-font-size: in px or em
+-font-weight: how thick the lines are
+-line-height: controls the height of a given line
+-text-align: left, right or center
+-text-decoration: underline, strikethrough, overline
+
+-em: relative size (to parent)
+
+-Google Fonts (fonts.google.com)
+
+-Box Model
+content - blue (involves width & height)
+padding - space on the inside of the border (b/t content and border) green
+border
+margin - space on the outside of the border (b/t border and anything else) orange
+
+- % - in relation to the parent element *
+-px necessary unless 0
+
+-float ** gets rid of whitespace that browser adds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

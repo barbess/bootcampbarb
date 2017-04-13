@@ -1,0 +1,28 @@
+h1 {
+
+/*	color: rgba(0, 200, 100, .2);
+	border-color: purple;
+	border-width: 5px;
+	borderder-style: solid;*/
+
+	border: 2px solid rgb(255, 100, 80);
+}
+
+/*width
+color
+style*/
+
+li {
+	color: green;
+}
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	/*background: url(https://filtergrade.com/wp-content/uploads/2015/10/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	background: pink;
+}
