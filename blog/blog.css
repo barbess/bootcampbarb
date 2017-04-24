@@ -10,34 +10,37 @@ font: source sans pro - google fonts*/
 body {
 	border: solid 20px #bdc3c7;
 	font-family: 'Source Sans Pro', sans-serif;
-	line-height: 1;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding-left: 14px;
-	padding-right: 14px;
+	margin: 20px auto;
+	max-width: 700px; 
+	width: 80%;
+	padding: 20px;
 }
 
 h2 {
 	color: #2c3e50;
-}
-
-p {
-	font-weight: 600;
+	font-weight: 700;
+	font-size: 2.0rem;
 }
 
 .date {
 	text-transform: uppercase;
 	color: #3498db;
-	letter-spacing: 3px;
-	font-weight: 400;
+	letter-spacing: 0.2rem;
 }
 
-.first-p {
-	border-left: solid 3px #bdc3c7;
+.quote {
+	border-left: solid 5px #bdc3c7;
 	padding-left: 5px;
 }
 
+/* Gradient transparent - color - transparent */
+
 hr {
-	border-width: 1px;
-	border-color: #f1f1f1;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.post {
+	margin-bottom: 20px;
 }
